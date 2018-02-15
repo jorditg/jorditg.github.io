@@ -1,8 +1,13 @@
 ---
-layout: post
+published: true
 title:  "On Lasso model regularization"
 date:   2015-10-13 00:00:00 +0100
-categories: data_science
+author_profile: true
+mathjax: false
+categories:
+  - Data Science
+tags:
+  - Regularization
 ---
 
 Lasso regularization is also known as L1-regularization. This regularizer is more aggresive that the more usual L2-regularizer.

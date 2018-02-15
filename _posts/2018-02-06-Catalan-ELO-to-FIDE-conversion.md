@@ -23,13 +23,13 @@ Creuant la informació de la [FIDE](http://ratings.fide.com) amd la de la [Feder
 
 A continuació es mostra l'histograma de les dades de ELO català estudiades:
 
-![Histograma CAT]({{ site.url }}/assets/2018-02-06-elocat-elofide/hist-elo-cat.png)
+![Histograma CAT]({{ site.url }}/assets/images/2018-02-06-elocat-elofide/hist-elo-cat.png)
 
 Aquestes dades tenen un ELO mig de 1.941 i una desviació estàndard de 203 punts d'ELO català.
 
 A continuació es mostra l'histograma de les dades d'ELO FIDE sobre la mateixa mostra poblacional:
 
-![Histograma FIDE]({{ site.url }}/assets/2018-02-06-elocat-elofide/hist-elo-fide.png)
+![Histograma FIDE]({{ site.url }}/assets/images/2018-02-06-elocat-elofide/hist-elo-fide.png)
 
 Aquestes dades tenen un ELO mig de 1.729 i una desviació estàndard de 274 punts d'ELO FIDE.
 
@@ -37,7 +37,7 @@ Aquestes dades tenen un ELO mig de 1.729 i una desviació estàndard de 274 punt
 
 Visualitzant ELO català vs ELO FIDE es veu una clara correlació lineal. A continuació es mostra el gràfic amb les dades i la regressió lineal obtinguda.
 
-![Regressió lineal]({{ site.url }}/assets/2018-02-06-elocat-elofide/linreg-elo-cat-fide.png)
+![Regressió lineal]({{ site.url }}/assets/images/2018-02-06-elocat-elofide/linreg-elo-cat-fide.png)
 
 La relació obtinguda té la forma: **FIDE = -789.13 + 1.298*CAT** i un quoeficient de correlació de 0.96.
 

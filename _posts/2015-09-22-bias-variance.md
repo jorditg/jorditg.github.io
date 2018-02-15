@@ -14,7 +14,7 @@ tags:
 Sometimes prediction error sources are not well understood. 
 These two important concepts are easily understood after visualizing them:
 
-![Bias vs Variance]({{ site.url }}/assets/2015-09-22-bias-variance/bias_variance.png)
+![Bias vs Variance]({{ site.url }}/assets/images/2015-09-22-bias-variance/bias_variance.png)
 
 **Bias** is the difference between the expected average prediction and the real value.
 
