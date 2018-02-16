@@ -1,5 +1,3 @@
 
+<meta http-equiv="refresh" content="0; url=https://jorditg.github.io/categories/" />
 
-### Contact me
-
-[jorditg@tinet.org](mailto:jorditg@tinet.org)
