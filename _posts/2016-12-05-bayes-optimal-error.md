@@ -21,5 +21,5 @@ If we are talking for example about a medical classification task, we can use as
 
 Which one of all this options defines what **human performance** is? It is important to define the standard we are comparing against.
 
-In any case in most of the cases we can consider that the *team of highly experienced specialized doctors* can be approximated to the *Bayes Optimal Error*.
+In any case in most of the cases we can consider that the **team of highly experienced specialized doctors** can be approximated to the **Bayes Optimal Error**.
 
