@@ -1,5 +1,5 @@
 ---
-title: "I'm a Data Scientist"
+title: "Data Science"
 pemalink: /home
 layout: single
 header:
