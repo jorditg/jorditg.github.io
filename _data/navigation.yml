@@ -2,13 +2,13 @@
 main:
   - title: "Home"
     url: /_pages/home
-  - title: "Videos"
-    url: /
-  - title: "Projects"
-    url: /
+#  - title: "Videos"
+#    url: /
+#  - title: "Projects"
+#    url: /
   - title: "Blogs"
     url: /categories/
-  - title: "Code"
-    url: https://github.com/jorditg
+#  - title: "Code"
+#    url: https://github.com/jorditg
   - title: "About"
     url: /
