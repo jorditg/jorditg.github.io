@@ -1,0 +1,14 @@
+---
+published: false
+title: "On probability distributions"
+date:   2015-09-21 00:00:00 +0100
+author_profile: true
+mathjax: true
+categories:
+  - Probability
+tags:
+  - Probability
+---
+
+A probability joint distribution is a function that for every point in the input space gives as a result the probability of occurence of such event. 
+
