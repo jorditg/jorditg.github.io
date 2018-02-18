@@ -15,11 +15,11 @@ Lasso regularization is also known as L1-regularization. This regularizer is mor
 Both methods are derived from adding to the chosen cost function an additional term, that penalizes the parameter values, forcing them to be as small as possible.
 
 In Ridge regression the original cost function $$ \mathcal{C_{orig}} $$ is modified according to the next equation: 
-$$ \mathcal{C_{reg}} = \mathcal{C_{orig}} + \sum_{i=1}^N \omega_i^2 $$
+$$ \mathcal{C_{reg}} = \mathcal{C_{orig}} + \lambda \sum_{i=1}^N \omega_i^2 $$
 
 
 In Lasso regression the original cost function becomes:
-$$ \mathcal{C_{reg}} = \mathcal{C_{orig}} + \sum_{i=1}^N \mid \omega_i \mid $$
+$$ \mathcal{C_{reg}} = \mathcal{C_{orig}} + \lambda \sum_{i=1}^N \mid \omega_i \mid $$
 
 The main characteristic of Lasso is that the parameters that are not important for the prediction are set to zero by the optimizer. The main difference with Ridge is that this last one, due to the fact that squaring a lower than 1 parameter makes it smaller, have a milder effect in removing superflous parameters.
 
