@@ -13,6 +13,9 @@ Hi, I'm Jordi de la Torre Professional Engineer and Machine Learning and Artific
 "If you can't explain it simply, you don't understand it well enough."
 Albert Einstein
 
+"The best way to learn something is to teach it."
+Cédric Villani
+
 ### More Information
 
 A multi-dimensional being. A free-thinker.
