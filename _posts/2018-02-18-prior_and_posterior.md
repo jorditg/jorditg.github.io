@@ -25,7 +25,7 @@ being:
 * $$ P(X \mid Y) $$ the **Posterior**
 * $$ P(X) $$ the **Prior**
 
-If X and Y events are related, that is to say, they are not independent, knowing about one of both events changes the probability occurrence of the other.
+If X and Y events are related, i.e., they are not independent, knowing about one of both events changes the probability occurrence of the other.
 
 The **Prior**, $$ P(X) $$, refers to the probability of event X before knowing about Y.
 The **Posterior**, $$ P(X \mid Y) $$, refers to the probability of event X after knowing about Y. 
