@@ -184,7 +184,6 @@ gems:
   - jekyll-gist
   - jekyll-feed
   - jemoji
-  - jekyll-tikz
   - jekyll-latex
 
 # mimic GitHub Pages with --safe
