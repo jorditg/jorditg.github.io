@@ -14,8 +14,4 @@ In this post I'm gonna a make a small intro to the Deep Reinforcement Learning f
 
 **Reinforcement learning** is a general purpose framework for decision making used as part ofthe design of artificial devices to interact with the environment.
 
-<div style="float: right">    
-  ![RL components]({{ site.url }}/assets/images/2018-02-19-deep-reinforcement-learning-intro/RL.png){: width="150px"}
-</div>
-
-The components are.
+![RL components]({{ site.url }}/assets/images/2018-02-19-deep-reinforcement-learning-intro/RL.png){: width="150px" style="float: right;margin-right: 7px;margin-top: 7px;"} The components are.
