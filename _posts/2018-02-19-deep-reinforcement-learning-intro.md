@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: "Deep Reinforcement Learning Intro"
 date:   2015-09-21 00:00:00 +0100
 author_profile: true
