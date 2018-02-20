@@ -72,6 +72,20 @@ $$ Q_{t+1}(s_t, a_t) = Q_t(s_t, a_t) + \alpha (R_{t+1}  + \gamma \max_a Q_t(s_{t
 
 where: $$ Q_t(s_t, a_t) $$ is the old state, $$ \alpha $$ the learning rate and $$ R_{t+1} $$ the discounted reward.
 
+# Exploration vs Exploitation
 
+These two concepts and the exact equilibrium between them are the key ingredients of reinforcement learning in stochastic environments. **Exploration** allows try of different actions not previously tried in order to find new strategies of doing things. ** Exploitation ** goes deeper into the good strategies. At first is good to explore a lot and as training advances is good to center every time more in the strategies tht work best.
+
+Deep learning is very good approximating Q tables. Exhaustive Q tables are impossible to save completely in memory due to the massive amount of actions and states combinations.
+
+Deep learning and Reinforcement Learning form a general purpose AI through efficient generalizable learning of the optimal things to do given a formalized set of actions and states.
+
+# Intelligence s Understanding
+
+Intelligence is the hability to accomplish complex goals and Understanding is the hability to turn complex information into simple and useful information.
+
+# Deep Q-network 
+
+![Playing Atari with Deep Reinforcement Learning](https://arxiv.org/abs/1312.5602) presented the DQN. The network was trained with a very similar approach of a supervised training. 
 
 
