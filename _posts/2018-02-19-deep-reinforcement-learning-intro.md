@@ -41,7 +41,7 @@ Machine learning can be classified in two categories: supervised learning & unsu
 
 Image below shows the type of interaction between the agent and the environment. The agent takes an action, makes an observation of the environment and updates its internal state and the reward obtained from the environment. 
 
-![Agent - Environment Interaction]({{ site.url }}/assets/images/2018-02-19-deep-reinforcement-learning-intro/agent_env.png)
+![Agent - Environment Interaction]({{ site.url }}/assets/images/2018-02-19-deep-reinforcement-learning-intro/agent_env.png){: width="400px"}
 
 This interaction produces a succession of **action, reward, state**s. This succession is a **Markov decision process**, a succession of the type $$ s_0, a_0, r_1, s_1, a_1, r_2, ..., s_{n-1}, a_{n-1}, r_n, s_n $$ until reaching a terminal state $$ s_n $$.
 
