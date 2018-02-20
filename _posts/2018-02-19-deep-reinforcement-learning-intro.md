@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: "Deep Reinforcement Learning Intro"
 date:   2018-02-19 00:00:00 +0100
 author_profile: true
@@ -38,4 +38,27 @@ Machine learning can be done mainly by two completely independent categories: su
 **Reinforcement learning** is a way of learning from the interaction with the environment. It learns from sparse reward data in a supervised manner. It uses into its favor the assumption that the physical world evolves insome sort of predictical way. It constructs a internal model of the environment that allows the formation of strategies for achieving its own goals. The basic constituents of reinforcement learning are the agent, the environment where it acts, the internal state of the agent in every time step, the observation of the environment, the reward function materializing the goals and the actions takes by the agent based on the internal model of the environment aligned with the consecution of the maximization of the reward.
 
 # Interaction between the agent and the environment
+
+Image below shows the type of interaction between the agent and the environment. The agent takes an action, makes an observation of the environment and updates its internal state and the reward obtained from the environment. 
+
+![Agent - Environment Interaction]({{ site.url }}/assets/images/2018-02-19-deep-reinforcement-learning-intro/agent_env.png)
+
+This interaction produces a succession of **action, reward, state**s. This succession is a **Markov decision process**, a succession of the type $$ s_0, a_0, r_1, s_1, a_1, r_2, ..., s_{n-1}, a_{n-1}, r_n, s_n $$ until reaching a terminal state $$ s_n $$.
+
+# Major Components of a Reinforcement Learning Agent
+
+* Policy: is the agent behavioural function
+* Value function: how good is the state and/or action
+* Model: environment representation
+
+The strategy of the agent is always aligned with the maximization of the reward.
+
+## Value function
+The value function encodes the reward that the agent is likely to receive in the future.
+
+$$ R = r_t + r_{t+1} + r_{t+2} + r_n $$
+
+In real world, future rewards are not deterministic, they are conceived as an expectation. Due to this fact, they cannot be summed up with the actual rewards, and they have to be discounted. So, in a stochastic environment the reward can be represented as:
+
+$$ R_t = r_t + \gamma r_{t+1} + \gamma^2 r_{t+2} + ... = r_t + \gamma ( r_{t+1} + \gamma (r_{t+2} + ... )) = r_t + \gamma R_{t+1} $$
 
