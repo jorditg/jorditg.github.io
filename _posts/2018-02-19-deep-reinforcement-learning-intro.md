@@ -124,7 +124,7 @@ until terminated
 ```
 # AlphaGo Zero. Learning from scratch to play Go better than humans.
 
-The Game of Go is the most challenging of all the existing board games. With more than $$ 10^170 $$ different possible positions has a complexity far greater than chess.
+The Game of Go is the most challenging of all the existing board games. With more than $$ 10^{170} $$ different possible positions has a complexity far greater than chess.
 
 In [Mastering the game of Go without human knowledge](https://www.nature.com/articles/nature24270) DeepMind company introduced a Reinforcement Learning algorithm that was able learn to play Go and achieve human performance and beat previously best automatic algorithms by only playing against itself with no prior knowlegde of the game but only the rules.
 
