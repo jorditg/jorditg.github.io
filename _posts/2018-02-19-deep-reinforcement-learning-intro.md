@@ -62,3 +62,16 @@ In real world, future rewards are not deterministic, they are conceived as an ex
 
 $$ R_t = r_t + \gamma r_{t+1} + \gamma^2 r_{t+2} + ... = r_t + \gamma ( r_{t+1} + \gamma (r_{t+2} + ... )) = r_t + \gamma R_{t+1} $$
 
+# Q-Learning
+
+Q-learning is a model-free reinforcement learning technique. It is able to compare the expected utility of the available actions (for a given state) without requiring a model of the environment. Additionally, Q-learning can handle problems with stochastic transitions and rewards, without requiring adaptations.
+
+$$ Q $$ approximates $$ Q^* $$, the Dynamic Programming discrete Bellman Optimality equation:
+
+$$ Q_{t+1}(s_t, a_t) = Q_t(s_t, a_t) + \alpha (R_{t+1}  + \gamma \max_a Q_t(s_{t+1}, a) - Q_t(s_t, a_t)) $$
+
+where: $$ Q_t(s_t, a_t) $$ is the old state, $$ \alpha $$ the learning rate and $$ R_{t+1} $$ the discounted reward.
+
+
+
+
