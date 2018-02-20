@@ -86,6 +86,55 @@ Intelligence is the hability to accomplish complex goals and Understanding is th
 
 # Deep Q-network 
 
-![Playing Atari with Deep Reinforcement Learning](https://arxiv.org/abs/1312.5602) presented the DQN. The network was trained with a very similar approach of a supervised training. 
+[Playing Atari with Deep Reinforcement Learning](https://arxiv.org/abs/1312.5602) presented the DQN. The network was trained with a very similar approach of a supervised training. 
+
+Being the Bellman equation $$ Q(s,a) = r + \gamma \max_{a'} Q(s',a') $$, they used as a loss function the expectation of the squared error $$\mathbb{E} [(r + \gamma \max_{a'} Q(s',a') - Q(s,a))^2 ] $$. Being $$ r  + \gamma \max_{a'} Q(s',a') $$ the target.
+
+They used a set of "tricks" to make it work:
+
+* In order to avoid that the system overfits over the particular actual learning experience, the training was not done using the actual experience but over a minibatch of randomly chosen previously lived and stored experiences.
+* In order to increase the stability of the training, the target network was only updated every 1000 steps. In this way, the changes in the cost function were more smooth.
+* Reward clipping was applied in order to fx it to the interval $$ [-1, +1] $$
+* Action only took place every four steps, skipping the rest, in order also to soften the action over the environment.
+
+## Deep Q-learning algorithm
+
+As mentioned above, the loop controls the saving of new experiences and training is done using a minibatch of randomly chosen previously saved experiences, not on the actual one.
+
+```
+initialize replay memory D
+initialize act-value function Q with random weights
+observe initial state
+repeat
+  select an action a
+    with probability $$ \epsilon $$ select random action (exploration)
+    otherwise select $$\argmax_{a'} Q(s,a') $$ (exploitation)
+  carry out action a
+  observe reward r and new state s'
+  store experience <s, a, r, s'> in replay memory D
+  
+  sample random transitions <ss, aa, rr, ss'> from replay memory D
+  calculate target for each minibatch transition
+  if ss' is terminal state then tt = rr
+  otherwise $$ tt = rr + \gamma \max_{a'}Q(ss', aa') $$
+  train Q network using $$ (tt - Q(ss, aa))^2 $$ as loss
+  s = s'
+until terminated
+```
+# Alpha-zero. Learning from zero to play Go better than humans.
+
+The Game of Go is the most challenging of all the existing board games. With more than $$ 10^170 $$ different possible positions has a complexity far greater than chess.
+
+In [Mastering the game of Go without human knowledge](https://www.nature.com/articles/nature24270) DeepMind company introduced a Reinforcement Learning algorithm that was able learn to play Go and achieve human performance and beat previously best automatic algorithms by only playing against itself with no prior knowlegde of the game but only the rules.
+
+This algorithm used a Montecarlo Tree seach (MCTS) combined with a convolutional neural network to get the intuitions about whic positions to expland. This combined strategy was used to balance exploration vs exploitation equilibria.
+
+The tricks used in the training that make possible this breakthrough were:
+
+* MCTS intelligent look-ahead to improve the value estimation of play options
+* Multitask learning of the neural network used outputing next move probabilities and probability of winning of actual position.
+* An improved neural network design using a ResNet architecture.
+
+
 
 
