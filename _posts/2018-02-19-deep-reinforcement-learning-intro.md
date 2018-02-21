@@ -89,7 +89,7 @@ Deep learning and Reinforcement Learning form a general purpose AI through effic
 
 [Playing Atari with Deep Reinforcement Learning](https://arxiv.org/abs/1312.5602) presented the DQN. The network was trained with a very similar approach of a supervised training. 
 
-Being the Bellman equation $$ Q(s,a) = r + \gamma \displaystyle\max_{a'} Q(s',a') $$, they used as a loss function the expectation of the squared error $$\mathbb{E} [(r + \gamma \max_{a'} Q(s',a') - Q(s,a))^2 ] $$. Being $$ r  + \gamma \max_{a'} Q(s',a') $$ the target.
+Being the Bellman equation $$ Q(s,a) = r + \gamma \displaystyle\max_{a'} Q(s',a') $$, they used as a loss function the expectation of the squared error $$\mathbb{E} [(r + \gamma \displaystyle\max_{a'} Q(s',a') - Q(s,a))^2 ] $$. Being $$ r  + \gamma \displaystyle\max_{a'} Q(s',a') $$ the target.
 
 They used a set of "tricks" to make it work:
 
