@@ -13,13 +13,13 @@ tags:
 
 In this blog intro I want to write some notes about the paper [f-GAN: Training Generative Neural Samplers using Variational Divergence Minimization](https://papers.nips.cc/paper/6066-f-gan-training-generative-neural-samplers-using-variational-divergence-minimization.pdf) and the fantastic presentation of the [NIPS 2016 Workshop on Adversarial Training](https://www.youtube.com/watch?v=kQ1eEXgGsCU) that I had the great honor to attend in person on December 2016.
 
-A **probabilistic model** is a formalized representation of an event or a phenomenon in a way that instead of giving a unique answer for an event as a deterministic model does, it gives as a solution a probability distribution. It is used to modelize stochastic processes where the events doesn't have a deterministic solution. This models are used to mimic as uch as possible the behaviour of real world probability distributions. 
+A **probabilistic model** is a formalized representation of an event or a phenomenon in a way that instead of giving a unique answer for an event as a deterministic model does, it gives as a solution a probability distribution. It is used to modelize stochastic processes where the events don't have a deterministic solution. This models are used to mimic as much as possible the behaviour of real world probability distributions. 
 
 Real world probability distributions can be approximated with real data adquisition of the event or phenomena that we are studying. As we don't now, if they exist, what are the principles that rule the world, we can only approximate the true dstributions collecting samples from the environment and modellizing models to mimic its behaviour.
 
 # Estimation of probabilistic models
 
-Having a real distribution $$ Q $$, we can use a parametric model $$ P $$ to approximate $$ Q $$. For measuring how far is our model from correctly predicting the true distribution, we need a measure of the difference between the results reported by the model and the vaues of the true dstribution. Firstly, as both models are stochastic, they don't report a unique value for each input but a probability distribution. We have to define a way of comparing probability distributions. One way of doing this is making an abstraction of the term distance and broaden its scope defining the so called **distance between probability distributions**. Secondly, we can do some assumptions on $$ P $$ to ease the process of approximation, i.e., that $$ P $$ has a tractable sampling, in order to compare the samples of our model with the true samples; that $$ P $$ has a tractable parameter gradient with respect to sample, in order to allow the usage of optimization techniques for learning; and finally that $$ P $$ had a tractable likelihood function, that is that for every instance of the class you can calculate the log-likelihood point-wise.
+Having a real distribution $$ Q $$, we can use a parametric model $$ P $$ to approximate $$ Q $$. For measuring how far is our model from correctly predicting the true distribution, we need a measure of the difference between the results reported by the model and the vaues of the true distribution. Firstly, as both models are stochastic, they don't report a unique value for each input but a probability distribution. We have to define a way of comparing probability distributions. One way of doing this is making an abstraction of the term distance and broaden its scope defining the so called **distance between probability distributions**. Secondly, we can do some assumptions on $$ P $$ to ease the process of approximation, i.e., that $$ P $$ has a tractable sampling, in order to compare the samples of our model with the true samples; that $$ P $$ has a tractable parameter gradient with respect to sample, in order to allow the usage of optimization techniques for learning; and finally that $$ P $$ had a tractable likelihood function, that is that for every instance of the class you can calculate the log-likelihood point-wise.
 
 
 # Probabilistic models
@@ -30,9 +30,9 @@ Depending on the construction procedure we differentiate between the next probab
 * Variational autoencoders (VAEs)
 * Generative Adversarial Networks (GANs)
 
-**Graphical models** are models built using as a main representation a graphical structure that abstracts out the contitional independence relationships between variables.
+**Graphical models** are models built using as a main representation a graphical structure that abstracts out the conditional independence relationships between variables.
 
-**Variational autoencoders** is a generative model. It uses a **encoder network** to encode the true distribution into a small feature space and after that uses a decoder network to reconstruct the original sample from the encoded representation. It uses neural networks as a way to represent information in a compressed manner an to learn important features required for generating a true distribution.
+**Variational autoencoders** is a generative model. It uses a *encoder network* to encode the true distribution into a small feature space and after that uses a *decoder network* to reconstruct the original sample from the encoded representation. It uses neural networks as a way to represent information in a compressed manner an to learn important features required for generating a true distribution.
 
 **Generative Adversarial Networks** use also a combination of two neural networks to create a generative model that tries to mimic a true distribution. The first network called *generator*, generates a model sample from a random vector using a deterministic transformation. A second neural network called *discriminator* receives randomly chosen samples from the true distribution and from the model distribution and is trained for differentiating between them. Both networks are trained in a adversarial manner, the generator to generate images as close as possible to the true distribution and the discrinator to detect the samples coming from the generator. GANs are a likelihood free model because it has a non-tractable likelihood although probably existing.
 
@@ -75,7 +75,7 @@ We will try to generalize the objective function given above to be used with any
 
 # f-divergences
 
-In probability theory, an ƒ-divergence is a function $$D_f (P  || Q)$$ that measures the difference between two probability distributions P and Q. 
+In probability theory, an ƒ-divergence is a function $$D_f (P  \mid \mid Q)$$ that measures the difference between two probability distributions P and Q. 
 
 It helps the intuition to think of the divergence as an average, weighted by the function f, of the odds ratio given by P and Q.
 
@@ -83,7 +83,7 @@ It helps the intuition to think of the divergence as an average, weighted by the
 
 $$
 \begin{equation}
-D_f(Q || P) = \int_{\mathscr{X}} p(x) f ( \frac{q(x)}{p(x)} ) dx
+D_f(Q \mid \mid P) = \int_{\mathscr{X}} p(x) f ( \frac{q(x)}{p(x)} ) dx
 \end{equation}
 $$
 
@@ -91,7 +91,7 @@ where $$f$$ is a convex, so called *generator function* accomplishing the condit
 
 This distance is always greater than zero and is only equal to zero when both distributions are equal over all the domain $$ \mathscr(X) $$
 
-| Name                     | $$ D_f(P || Q) $$                 | Generator $$ f(u) $$ |
+| Name                     | $$ D_f(P \mid \mid Q) $$                 | Generator $$ f(u) $$ |
 |:-------------------------|:--------------------------------------------------|:-------------------------------|
 |Total variation           | $$\frac{1}{2}\int \mid p(x)-q(x)\mid dx$$         | $$\frac{1}{2}\mid u-1 \mid$$   |
 | Kullback-Leibler         | $$\int p(x) \log \frac{p(x)}{q(x)}dx $$            | $$ u log u $$                 |
@@ -111,7 +111,7 @@ Nguyen et al., 2010 derive a general variational method to estimate f-divergence
 
 $$
 \begin{equation}
-D_f(Q || P) = \int_{\mathscr{X}} p(x) f ( \frac{q(x)}{p(x)} ) dx \ge \displaystyle\sup_{T \in \mathscr{T}} ( \int_{\mathscr{x}} q(x)T(x)dx - int_{\mathscr{X}}p(x)f^*(T(x))dx) = \sup_{T \in \mathscr{T}}( \mathbb{E}_{x \sim Q}[T(x)] -  \mathbb{E}_{x \sim P}[f^*(T(x))])
+D_f(Q \mid \mid P) = \int_{\mathscr{X}} p(x) f ( \frac{q(x)}{p(x)} ) dx \ge \displaystyle\sup_{T \in \mathscr{T}} ( \int_{\mathscr{x}} q(x)T(x)dx - int_{\mathscr{X}}p(x)f^*(T(x))dx) = \sup_{T \in \mathscr{T}}( \mathbb{E}_{x \sim Q}[T(x)] -  \mathbb{E}_{x \sim P}[f^*(T(x))])
 \end{equation}
 $$
 
