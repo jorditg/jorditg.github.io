@@ -1,6 +1,6 @@
 ---
 published: true
-title: "Probabilistic models estimation"
+title: "f-GAN a generalization of GANs to all f-divergences"
 date:   2018-02-20 00:00:00 +0100
 author_profile: true
 mathjax: true
