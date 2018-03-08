@@ -16,7 +16,11 @@ In the next videos we make changes in the input image in order to study the robu
 
 Enjoy the videos. They are fun!
 
-![How the model respond to changes in Rotation](https://www.youtube.com/watch?v=71oms5KRn7g)
-![How the model respond to changes in Hue](https://www.youtube.com/watch?v=xoPCGeQH890)
-![How the model respond to changes in Saturation](https://www.youtube.com/watch?v=_UFOZMgPk18)
-![How the model respond to changes in Luminance](https://www.youtube.com/watch?v=Y5ol7B1-DQM)
+[How the model respond to changes in Rotation](https://www.youtube.com/watch?v=71oms5KRn7g)
+
+[How the model respond to changes in Hue](https://www.youtube.com/watch?v=xoPCGeQH890)
+
+[How the model respond to changes in Saturation](https://www.youtube.com/watch?v=_UFOZMgPk18)
+
+[How the model respond to changes in Luminance](https://www.youtube.com/watch?v=Y5ol7B1-DQM)
+
