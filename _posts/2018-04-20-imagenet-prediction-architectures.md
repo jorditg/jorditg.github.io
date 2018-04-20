@@ -5,7 +5,7 @@ date:   2018-04-20 00:00:00 +0100
 author_profile: true
 mathjax: false
 categories:
-  - Data Science
+  - Deep Learning
 tags:
   - Classification, ImageNet
 ---
