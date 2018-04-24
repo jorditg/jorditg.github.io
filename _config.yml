@@ -7,9 +7,9 @@
 
 # Site Settings
 locale                   : "en"
-title                    : "Jordi de la Torre"
+title                    : "Delas' Blog"
 title_separator          : "-"
-name                     : "Jordi de la Torre"
+name                     : "Delas"
 description              : "My personal website sharing some of my thoughts and experiences."
 url                      : https://jorditg.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -77,10 +77,10 @@ analytics:
 
 # Site Author
 author:
-  name             : "Jordi de la Torre"
+  name             : "Delas"
   avatar           : "/assets/images/profile-github.jpeg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Data Scientist<br /> Machine Learning<br /> Deep Learning<br /> Artificial Intelligence"
-  location         : "Tarragona, Spain"
+  location         : "Planet Earth"
   email            : jorditg@tinet.org
   uri              : http://jorditg.github.io
   bitbucket        :
