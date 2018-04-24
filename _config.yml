@@ -78,7 +78,7 @@ analytics:
 # Site Author
 author:
   name             : "Jordi de la Torre"
-  avatar           : "/assets/images/bio.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/profile-github.jpeg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Data Scientist<br /> Machine Learning<br /> Deep Learning<br /> Artificial Intelligence"
   location         : "Tarragona, Spain"
   email            : jorditg@tinet.org
