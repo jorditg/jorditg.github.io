@@ -5,7 +5,7 @@ date:   2018-06-04 00:00:00 +0100
 author_profile: true
 mathjax: false
 categories:
-  - Machine Learning
+  - Machine learning
 tags:
   - Trees
 ---
