@@ -46,7 +46,7 @@ diversity of input images and masks. Our data was extracted from the
 challenge datasets (Codella et al. 2017) (Tschandl, Rosendahl, and
 Kittler 2018).
 
-Model {#sec:class}
+Model 
 =====
 
 We used a LinkNet derived network for solving this challenge reducing
@@ -58,7 +58,6 @@ such cases and enable the usage of narrower filter stacks, that's why we
 limited the number of filters per layer to 64, allowing the usage of a
 model of only 600,000 parameters
 
-\centering
 ![High level description of the LinkNet model architecture (Chaurasia
 and Culurciello
 2017)[]{label="fig:linknet"}]({{ site.url }}/assets/images/2018-07-31-isic-challenge-2018-task1/linknet.png){width="35%"}
@@ -76,15 +75,11 @@ decoder and encoder values at the output of each layer, LinkNet uses a
 residual network approach summing up the values, ie. reducing the number
 of parameters of the final network.
 
-\centering
-\centering
 ![Encoder block]({{ site.url }}/assets/images/2018-07-31-isic-challenge-2018-task1/linknet_encoder_block.png){width="50%"}
 
-\centering
 ![Decoder block]({{ site.url }}/assets/images/2018-07-31-isic-challenge-2018-task1/linknet_decoder_block.png){width="50%"}
 
-[\[fig:linknet\_enc\_dec\]]{#fig:linknet_enc_dec
-label="fig:linknet_enc_dec"}
+[\[fig:linknet\_enc\_dec\]]{#fig:linknet_enc_dec label="fig:linknet_enc_dec"}
 
 Training procedure
 ==================
@@ -95,47 +90,34 @@ Adam optimizer with a learning rate of $10^-4$ and Dice coefficient as a
 loss function. Model with higher performance in the validation set is
 chosen as a final model.
 
-References {#references .unnumbered}
+References 
 ==========
 
-::: {#refs .references}
-::: {#ref-DBLP:journals/corr/ChaurasiaC17}
 Chaurasia, Abhishek, and Eugenio Culurciello. 2017. "LinkNet: Exploiting
 Encoder Representations for Efficient Semantic Segmentation." *CoRR*
 abs/1707.03718. <http://arxiv.org/abs/1707.03718>.
-:::
 
-::: {#ref-DBLP:journals/corr/abs-1710-05006}
 Codella, Noel C. F., David Gutman, M. Emre Celebi, Brian Helba, Michael
 A. Marchetti, Stephen W. Dusza, Aadi Kalloo, et al. 2017. "Skin Lesion
 Analysis Toward Melanoma Detection: A Challenge at the 2017
 International Symposium on Biomedical Imaging (Isbi), Hosted by the
 International Skin Imaging Collaboration (ISIC)." *CoRR* abs/1710.05006.
 <http://arxiv.org/abs/1710.05006>.
-:::
 
-::: {#ref-imagenet_cvpr09}
 Deng, J., W. Dong, R. Socher, L.-J. Li, K. Li, and L. Fei-Fei. 2009.
 "ImageNet: A Large-Scale Hierarchical Image Database." In *CVPR09*.
-:::
 
-::: {#ref-he2016deep}
 He, Kaiming, Xiangyu Zhang, Shaoqing Ren, and Jian Sun. 2016. "Deep
 Residual Learning for Image Recognition." In *Proceedings of the Ieee
 Conference on Computer Vision and Pattern Recognition*, 770--78.
-:::
 
-::: {#ref-ronneberger2015u}
 Ronneberger, Olaf, Philipp Fischer, and Thomas Brox. 2015. "U-Net:
 Convolutional Networks for Biomedical Image Segmentation." In
 *International Conference on Medical Image Computing and
 Computer-Assisted Intervention*, 234--41. Springer.
-:::
 
-::: {#ref-DBLP:journals/corr/abs-1803-10417}
 Tschandl, Philipp, Cliff Rosendahl, and Harald Kittler. 2018. "The
 HAM10000 Dataset: A Large Collection of Multi-Source Dermatoscopic
 Images of Common Pigmented Skin Lesions." *CoRR* abs/1803.10417.
 <http://arxiv.org/abs/1803.10417>.
-:::
-:::
+
