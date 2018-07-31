@@ -70,7 +70,7 @@ up such values with their own.
 
 ![Encoder block]({{ site.url }}/assets/images/2018-07-31-isic-challenge-2018-task1/linknet_encoder_block.png)
 
-![Decoder block]({{ site.url }}/assets/images/2018-07-31-isic-challenge-2018-task1/linknet_decoder_block.png)inknet_enc_dec"} 
+![Decoder block]({{ site.url }}/assets/images/2018-07-31-isic-challenge-2018-task1/linknet_decoder_block.png)
 
 Figures above show a diagram with a high level
 description of encoder and decoder blocks. Instead of concatenating
