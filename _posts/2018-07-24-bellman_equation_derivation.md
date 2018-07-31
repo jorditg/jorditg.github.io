@@ -1,6 +1,6 @@
 ---
 published: false
-title: "bellman Equation Derivation"
+title: "Bellman Equation Derivation"
 date:   2018-02-19 00:00:00 +0100
 author_profile: true
 mathjax: true
@@ -10,7 +10,7 @@ tags:
   - Reinforcement Learning
 ---
 
-Using math equtions as magic has never been my way. For deep concept understanding, a key point is to understand all the prior information related with the new concept that you are trying to catch.
+Using math equations as magic has never been my way. For deep concept understanding, a key point is to first understand all the prior information related with the new concept that you are trying to catch.
 
 In Reinforcement Learning, a important equation is the *Bellman Equation*. In [this video](https://www.youtube.com/watch?v=us8JoyjD0Oo) Constantin Bürgi presents a very clear derivation of the equation transforming the original *infinite horizon problem* into a *dynamic programming* one.
 
