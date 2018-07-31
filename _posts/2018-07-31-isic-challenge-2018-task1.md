@@ -60,7 +60,7 @@ model of only 600,000 parameters
 
 ![High level description of the LinkNet model architecture (Chaurasia
 and Culurciello
-2017)[]{label="fig:linknet"}]({{ site.url }}/assets/images/2018-07-31-isic-challenge-2018-task1/linknet.png){width="35%"}
+2017)[]{label="fig:linknet"}]({{ site.url }}/assets/images/2018-07-31-isic-challenge-2018-task1/linknet.png)
 
 Figure [\[fig:linknet\]](#fig:linknet){reference-type="ref"
 reference="fig:linknet"} shows a high level description of the model
@@ -75,9 +75,9 @@ decoder and encoder values at the output of each layer, LinkNet uses a
 residual network approach summing up the values, ie. reducing the number
 of parameters of the final network.
 
-![Encoder block]({{ site.url }}/assets/images/2018-07-31-isic-challenge-2018-task1/linknet_encoder_block.png){width="50%"}
+![Encoder block]({{ site.url }}/assets/images/2018-07-31-isic-challenge-2018-task1/linknet_encoder_block.png)
 
-![Decoder block]({{ site.url }}/assets/images/2018-07-31-isic-challenge-2018-task1/linknet_decoder_block.png){width="50%"}
+![Decoder block]({{ site.url }}/assets/images/2018-07-31-isic-challenge-2018-task1/linknet_decoder_block.png)
 
 [\[fig:linknet\_enc\_dec\]]{#fig:linknet_enc_dec label="fig:linknet_enc_dec"}
 
