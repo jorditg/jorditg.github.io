@@ -86,7 +86,7 @@ Training procedure
 
 We split the training data in two sets: one with 13,000 images used for
 training and another one with 1,400 images for validation. We use the
-Adam optimizer with a learning rate of $10^-4$ and Dice coefficient as a
+Adam optimizer with a learning rate of $$10^-4$$ and Dice coefficient as a
 loss function. Model with higher performance in the validation set is
 chosen as a final model.
 
