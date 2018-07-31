@@ -33,15 +33,15 @@ By definition $$C_t$$ can also be expressed by $$ C_t = (1+r)k_t - k_{t+1}  $$
 
 The infinite horizon problem, akas $$ L_0 $$ can be expressed by:
 
-$$ \mathcal{L_0} = max \sum_{t=0}^{\inf} \beta^t u((1+r) k_t - k_{t+1}) $0
+$$ \mathcal{L_0} = max \sum_{t=0}^{\inf} \beta^t u((1+r) k_t - k_{t+1}) $$
 
 Leavind a part the first element, t=0, $$L_1$$ can be expressed as:
 
 $$ \mathcal{L_1} = max \sum_{t=1}^{\inf} \beta^t u((1+r) k_t - k_{t+1}) $$
 
-Now we can express $$L_0$$ as the sum of an expression plus $$L_1$$:
+Now we can express $$\mathcal{L_0}$$ as the sum of an expression plus $$\mathcal{L_1}$$:
 
-$$ L_0 = max( u((1+r)k_0 + k_1) + \mathcal{L_1}) $$
+$$ \mathcal{L_0} = max( u((1+r)k_0 + k_1) + \mathcal{L_1}) $$
 
 $$ \mathcal{L_0} $$ is a function that depends only on the value of $$k_0$$, for its part, $$ \mathcal{L_1} $$ depends
 solely of $$ k_1$$.
