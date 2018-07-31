@@ -1,7 +1,7 @@
 ---
-published: false
+published: true
 title: "Bellman Equation Derivation"
-date:   2018-02-19 00:00:00 +0100
+date:   2018-07-19 00:00:00 +0100
 author_profile: true
 mathjax: true
 categories:
