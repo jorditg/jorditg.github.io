@@ -62,24 +62,22 @@ model of only 600,000 parameters
 and Culurciello
 2017)[]{label="fig:linknet"}]({{ site.url }}/assets/images/2018-07-31-isic-challenge-2018-task1/linknet.png)
 
-Figure [\[fig:linknet\]](#fig:linknet){reference-type="ref"
-reference="fig:linknet"} shows a high level description of the model
+Figure above shows a high level description of the model
 architecture. Network is constituted by two parts: an encoder and a
 decoder. The encoder is a residual net feature extractor. Decoder
 receives information from different feature maps of the encoder, summing
-up such values with their own. Figure
-[\[fig:linknet\_enc\_dec\]](#fig:linknet_enc_dec){reference-type="ref"
-reference="fig:linknet_enc_dec"} show a diagram with a high level
+up such values with their own. 
+
+![Encoder block]({{ site.url }}/assets/images/2018-07-31-isic-challenge-2018-task1/linknet_encoder_block.png)
+
+![Decoder block]({{ site.url }}/assets/images/2018-07-31-isic-challenge-2018-task1/linknet_decoder_block.png)inknet_enc_dec"} 
+
+Figures above show a diagram with a high level
 description of encoder and decoder blocks. Instead of concatenating
 decoder and encoder values at the output of each layer, LinkNet uses a
 residual network approach summing up the values, ie. reducing the number
 of parameters of the final network.
 
-![Encoder block]({{ site.url }}/assets/images/2018-07-31-isic-challenge-2018-task1/linknet_encoder_block.png)
-
-![Decoder block]({{ site.url }}/assets/images/2018-07-31-isic-challenge-2018-task1/linknet_decoder_block.png)
-
-[\[fig:linknet\_enc\_dec\]]{#fig:linknet_enc_dec label="fig:linknet_enc_dec"}
 
 Training procedure
 ==================
