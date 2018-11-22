@@ -17,8 +17,8 @@ Mutual information between two random variables $$X$$ and $$Y$$ can be expressed
 $$I(X,Y) = KL(P(X,Y) | P(X)·P(Y))$$
 
 Mutual information definition is written normally as a function of the entropy $$I(X,Y) = H(X) - H(X|Y)$$ but I find more intuitive the first formulation. One can be derived from the other just by mathematical manipulation.
-In the case where both variables are independent, $$P(X,Y)$$ is equal to $$P(X)P(Y)$$ and the KL divergence between both distributions is 0. 
-Intuitively we can say that knowing about one variable gives no information about the other.
-In the case where both variables are not independent,  knowing about one of  the variables gives information about the other. 
+In case where both variables are independent, $$P(X,Y)$$ is equal to $$P(X)P(Y)$$ and the KL divergence between both distributions is 0. 
+Intuitively, we can affirm that knowing about one variable gives no information about the other.
+In the case where both variables are not independent,  knowing about one variable gives information about the other. 
 In this case $$P(X,Y)$$ and $$P(X)·P(Y)$$ will differ and the mutual information would be different from zero.
 
