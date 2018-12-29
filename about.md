@@ -26,10 +26,6 @@ Antonio Escohotado
 Alejandro Jodorowsky
 
 
-### More Information
-
-A multi-dimensional being. A free-thinker.
-
 ### Contact me
 
 [jorditg@tinet.org](mailto:jorditg@tinet.org)
