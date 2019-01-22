@@ -9,7 +9,7 @@
 locale                   : "en"
 title                    : "Delas' Blog"
 title_separator          : "-"
-name                     : "Delas"
+name                     : "Jordi de la Torre"
 description              : "My personal website sharing some of my thoughts and experiences."
 url                      : https://jorditg.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
