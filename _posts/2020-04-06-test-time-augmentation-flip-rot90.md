@@ -7,12 +7,12 @@ mathjax: false
 categories:
   - Machine learning
 tags:
-  - computer vision, test time augmentation, TTA
+  - computer vision
+  - test time augmentation
 ---
 
 
-# Motivation
-
+# Motivation 
 The motivation is to find the number of different versions of the same image that can be obtained from horizontally, vertically flipping and image and rotating it a multiple of 90 degrees.
 
 # Procedure
