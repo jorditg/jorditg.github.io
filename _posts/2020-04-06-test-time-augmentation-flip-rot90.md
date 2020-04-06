@@ -5,7 +5,7 @@ date:   2020-04-06 20:00:00 +0100
 author_profile: true
 mathjax: false
 categories:
-  - machine learning
+  - Machine learning
 tags:
   - computer vision, test time augmentation, TTA
 ---
