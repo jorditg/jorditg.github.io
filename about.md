@@ -6,9 +6,7 @@ header:
 image: assets/images/lside.png
 ---
 
-### Data Scientist
-
-## Are you looking for a Research Consultant or for an eventual business collaboration ? 
+## Looking for a Research Consultant or a Partner for a Business Collaboration ? 
 
 ## Contact me:
 
