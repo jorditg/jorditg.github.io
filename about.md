@@ -6,8 +6,6 @@ header:
 image: assets/images/lside.png
 ---
 
-## About me:
-
 **Looking for a Research Consultant ?**
 
 **Looking for a Partner for a Business Collaboration ?** 
