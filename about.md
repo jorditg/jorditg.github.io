@@ -26,8 +26,7 @@ Antonio Escohotado
 Alejandro Jodorowsky
 
 
-### Are you looking for a Data Science Research Consultant? 
-### Are you looking for a possible business collaboration ? 
+### Are you looking for a Data Science Research Consultant or for an eventual business collaboration ? 
 ### Contact me:
 
-[jorditg@tinet.org](mailto:jorditg@tinet.org)
+[jordi.delatorre@gmail.com](mailto:jordi.delatorre@gmail.com)
