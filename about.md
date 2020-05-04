@@ -3,12 +3,14 @@ layout: single
 permalink: /about
 date: 2016-03-23T11:48:41-04:00
 header:
-  #image: assets/images/lside.png
+image: assets/images/lside.png
 ---
 
-### Are you looking for a Research Consultant or for an eventual business collaboration ? 
+### Data Scientist
 
-### Contact me:
+## Are you looking for a Research Consultant or for an eventual business collaboration ? 
+
+## Contact me:
 
 [jordi.delatorre@gmail.com](mailto:jordi.delatorre@gmail.com)
 
