@@ -6,11 +6,7 @@ header:
 image: assets/images/lside.png
 ---
 
-**Looking for a Research Consultant ?**
-
-**Looking for a Partner for a Business Collaboration ?** 
-
-Contact me: [jordi.delatorre@gmail.com](mailto:jordi.delatorre@gmail.com)
+**Contact me:** [jordi.delatorre@gmail.com](mailto:jordi.delatorre@gmail.com)
 
 ![Jordi]({{ site.url }}/assets/images/bio.png){:height="200px" width="200px"}
 
