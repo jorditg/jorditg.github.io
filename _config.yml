@@ -65,7 +65,7 @@ og_image                 : # Open Graph/Twitter default site image
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
   type                   : # Person or Organization (defaults to Person)
-  name                   : Neural Solutions # If the user or organization name differs from the site's name
+  name                   : # If the user or organization name differs from the site's name
   links:   # An array of links to social media profiles
 
 # Analytics
@@ -82,7 +82,7 @@ author:
   bio              : "Data Scientist<br /> Machine Learning<br /> Deep Learning<br /> Artificial Intelligence"
   location         : "Barcelona, ES"
   email            : jordi.delatorre@gmail.com
-  uri              : http://www.neural-solutions.com
+  uri              : 
   bitbucket        :
   codepen          :
   dribbble         :
