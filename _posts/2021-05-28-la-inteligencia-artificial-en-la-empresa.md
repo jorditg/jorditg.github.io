@@ -1,4 +1,3 @@
-
 ---
 published: true
 title: "Inteligencia Artificial en la Empresa"
