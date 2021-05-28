@@ -12,7 +12,7 @@ tags:
 
 En los últimos tiempos son comunes las campañas de marketing, procedentes sobretodo de las empresas e instituciones de raíz tecnológica, abogando por la integración de una supuesta “Inteligencia Artificial” en las empresas. En muchas ocasiones se presenta este, supuestamente nuevo paradigma, rodeado de un halo de casi misticismo y solución casi mágica a todos los problemas.
 
-Quiero hacerles conocedores de una realidad: lamentablemente, hoy por hoy, la Inteligencia Artificial *NO EXISTE*.
+Quiero hacerles conocedores de una realidad: lamentablemente, hoy por hoy, **la Inteligencia Artificial NO EXISTE**.
 
 En los últimos años, este campo de investigación se ha centrado en el desarrollo de algoritmos de aprendizaje automático, consiguiendo un desarrollo muy fructífero en el campo de las redes neuronales. Este hecho ha permitido desarrollar algoritmos predictivos muy efectivos en la identificación de patrones presentes en señales (esto es en imagen, sonido principalmente) y en texto, campos en los cuales históricamente había sido dificultoso obtener resultados aceptables. En el campo de la predicción de datos numéricos también se han hecho importantes avances, los más efectivos hasta el momento, mediante la combinación de modelos basados en árboles de decisión. Cabe decir entonces, que disponemos de un gran abanico de algoritmos que funcionan muy bien en el reconocimiento de patrones tanto para datos como para señales. 
 
