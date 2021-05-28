@@ -5,7 +5,7 @@ date:   2021-05-28 00:00:00 +0100
 author_profile: true
 mathjax: false
 categories:
-  - Machine learning, Artificial Intelligence, Business
+  - AI in Business
 tags:
   - Opinion
 ---
