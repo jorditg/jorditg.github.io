@@ -12,6 +12,9 @@ image: assets/images/lside.png
 
 I'm Jordi de la Torre, Ph.D. in Machine Learning and Artificial Intelligence. I have a multidisciplinary background. I received a M.S. in Chemical Engineering in 1998 and a B.S. in Computer Science in 2007 by Universitat Rovira i Virgili, and a B.S. and M.S. in Business Administration in 2011 by the Universitat Oberta de Catalunya, Barcelona and a Ph.D. in AI in 2019. My main research area is Deep Learning applied to Biology.
 
+"En una facultad de Teología bien organizada es imprescindible –para los estudios de doctorado, naturalmente– una cátedra de Blasfemia, desempeñada, si fuera posible, por el mismo Demonio"
+Antonio Machado
+
 "If you can't explain it simply, you don't understand it well enough."
 Albert Einstein
 
