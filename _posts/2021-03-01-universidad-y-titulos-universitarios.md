@@ -1,3 +1,15 @@
+---
+published: true
+title: "Los Títulos Universitarios de la Universidad Actual"
+date:   2021-05-28 00:00:00 +0100
+author_profile: true
+mathjax: false
+categories:
+  - University
+tags:
+  - Opinion
+---
+
 Grandes empresas como Google empiezan a ofrecer formación especializada a bajo coste. Se busca ofrecer una formación más adecuada a sus necesidades, a un menor coste y en menor tiempo que la que actualmente ofrecen las universidades.
 
 Es fácil predecir que se convertirá en el estándar de facto para la empresa privada en el medio plazo dejando de lado los requerimientos de títulos universitarios.
